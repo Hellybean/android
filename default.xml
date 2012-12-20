@@ -422,4 +422,5 @@
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung"  />
 
   <project path="kernel/samsung/devil" name="DerTeufel/samsung-kernel-aries" revision="cm-10.1" />
+  <project path="kernel/samsung/crespo_devil" name="DerTeufel/android_kernel_samsung_crespo" revision="devil" />
 </manifest>
