@@ -1,3 +1,4 @@
+UNOFFICIAL HELLYBEAN MANIFEST FOR HERCULES AND SKYROCKET
 
 To initialize your local repository use
 
@@ -7,3 +8,11 @@ Then to sync up:
 
     repo sync
 
+
+Build commands are
+   
+    vendor/cm/get-prebuilts
+    
+    . build/envsetup.sh
+    
+    brunch hercules 
