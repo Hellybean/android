@@ -44,10 +44,8 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/samsung/celox-common" name="CyanogenMod/android_device_samsung_celox-common" remote="github" revision="cm-10.1" />
-  <project path="device/samsung/hercules" name="CyanogenMod/android_device_samsung_hercules" remote="github" revision="cm-10.1" />
   <project path="device/samsung/msm8660-common" name="CyanogenMod/android_device_samsung_msm8660-common" remote="github" revision="cm-10.1" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.1" />
-  <project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" remote="github" revision="cm-10.1" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
@@ -389,11 +387,13 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
 <!--D2 Requirements-->
-<project name="ayysir/android_device_samsung_d2-common" path="ayysir/android_device_samsung_d2-common" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_kernel_samsung_d2" path="ayysir/android_kernel_samsung_d2" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="bitbucket" revision="cm-10.1" />
 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
 
 <!--Device Trees-->
-<project name="ayysir/android_device_samsung_d2tmo" path="ayysir/android_device_samsung_d2tmo" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2att" path="ayysir/android_device_samsung_d2att" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="bitbucket" revision="cm-10.1" />
+<project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" remote="github" revision="cm-10.1" />
+  <project path="device/samsung/hercules" name="CyanogenMod/android_device_samsung_hercules" remote="github" revision="cm-10.1" />
 </manifest>
