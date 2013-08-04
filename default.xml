@@ -5,6 +5,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org" /> 
+
   <remote name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -43,10 +46,13 @@
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
-
+  <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
+  <project path="device/samsung/celox-common" name="CyanogenMod/android_device_samsung_celox-common" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/msm8660-common" name="CyanogenMod/android_device_samsung_msm8660-common" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
+  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" /> 
 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
