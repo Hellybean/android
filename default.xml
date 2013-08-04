@@ -435,8 +435,8 @@
 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
 
 <!--Device Trees-->
-<project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.1" />
-<project name="ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="bitbucket" revision="cm-10.1" />
+<project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.2" />
+<project name="ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="bitbucket" revision="cm-10.2" />
 <project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" remote="github" revision="cm-10.2" />
   <project path="device/samsung/hercules" name="CyanogenMod/android_device_samsung_hercules" remote="github" revision="cm-10.2" />
 </manifest>
