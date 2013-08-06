@@ -2,7 +2,7 @@ UNOFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, D2TMO, AND D2ATT
 
 To initialize your local repository use
 
-    repo init -u https://github.com/thdDude/android.git -b cm-10.1
+    repo init -u https://github.com/thdDude/android.git -b cm-10.2
 
 Then to sync up:
 
