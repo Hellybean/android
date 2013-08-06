@@ -20,7 +20,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="thdDude/android_build" groups="pdk" >
+  <project path="build" name="thdDude/android_build" groups="cm-10.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
