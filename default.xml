@@ -49,11 +49,6 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
-  <project path="device/samsung/celox-common" name="CyanogenMod/android_device_samsung_celox-common" remote="github" revision="cm-10.2" />
-  <project path="device/samsung/msm8660-common" name="CyanogenMod/android_device_samsung_msm8660-common" remote="github" revision="cm-10.2" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
-  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" /> 
-
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
@@ -164,7 +159,6 @@
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" />
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" groups="pdk" />
-
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
@@ -208,7 +202,6 @@
   <project path="external/replicaisland" name="CyanogenMod/android_external_replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
-
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" />
@@ -403,7 +396,6 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk,tools" />
-
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" groups="pdk" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
@@ -426,17 +418,26 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" />
+
 
 
 <!--D2 Requirements-->
-<project name="ayysir/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="bitbucket" revision="cm-10.2" />
-<project name="ayysir/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="bitbucket" revision="cm-10.2" />
-<project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/d2-common" name="ayysir/android_device_samsung_d2-common" remote="bitbucket" revision="cm-10.2" />
+  <project path="kernel/samsung/d2" name="ayysir/android_kernel_samsung_d2" remote="bitbucket" revision="cm-10.2" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
 
 <!--Device Trees-->
-<project name="ayysir/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="bitbucket" revision="cm-10.2" />
-<project name="ayysir/android_device_samsung_d2att" path="device/samsung/d2att" remote="bitbucket" revision="cm-10.2" />
-<project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/d2tmo" name="ayysir/android_device_samsung_d2tmo" remote="bitbucket" revision="cm-10.2" />
+  <project path="device/samsung/d2att" name="ayysir/android_device_samsung_d2att" remote="bitbucket" revision="cm-10.2" />
+  <project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" remote="github" revision="cm-10.2" />
   <project path="device/samsung/hercules" name="CyanogenMod/android_device_samsung_hercules" remote="github" revision="cm-10.2" />
-</manifest>
+  <project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/hercules" name="CyanogenMod/android_device_samsung_hercules" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/msm8660-common" name="CyanogenMod/android_device_samsung_msm8660-common" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/celox-common" name="CyanogenMod/android_device_samsung_celox-common" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
+  <project path="kernel/samsung/msm8660-common" name="TeamChopsticks/android_kernel_samsung_msm8660-common" remote="github" revision="cm-10.2-new" />  
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
+  <project name="TeamChopsticks/hercskytools" path="hercskytools" remote="github" revision="master" />
+  <copyfile src="build.sh" dest="build.sh" />  
+  </manifest>
