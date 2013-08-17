@@ -20,12 +20,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="DerTeufel/android_build" remote="github" revision="cm-10.1" />
+  <project path="build" name="DerTeufel/android_build" groups="cm-10.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="android" name="thdDude/android" />
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
