@@ -434,7 +434,7 @@
   <project path="device/samsung/msm8660-common" name="CyanogenMod/android_device_samsung_msm8660-common" remote="github" revision="cm-10.2" />
   <project path="device/samsung/celox-common" name="CyanogenMod/android_device_samsung_celox-common" remote="github" revision="cm-10.2" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
-  <project path="kernel/samsung/msm8660-common" name=" Cl3Kener/HERC-KERNELS" remote="github" revision="diablo-4.3" />  
+  <project path="kernel/samsung/msm8660-common" name="Cl3Kener/HERC-KERNELS" remote="github" revision="diablo-4.3" />  
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
   <project name="TeamChopsticks/hercskytools" path="hercskytools" remote="github" revision="master" />
   <copyfile src="build.sh" dest="build.sh" />  
