@@ -25,7 +25,6 @@
   </project>
 
   <project path="android" name="thdDude/android" groups="hb43" />
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
@@ -424,22 +423,27 @@
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
 
 <!--D2 Requirements-->
-  <project path="device/samsung/d2-common" name="ayysir/android_device_samsung_d2-common" remote="bitbucket" revision="cm-10.2" />
   <project path="kernel/samsung/d2" name="ayysir/android_kernel_samsung_d2" remote="bitbucket" revision="cm-10.2" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
+
+<!--Hercules-Skyrocket Requirements-->
+  <project path="kernel/samsung/msm8660-common" name="Cl3Kener/HERC-KERNELS" remote="github" revision="diablo-jb43" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
+
+<!--HercSky Tools-->
+  <project path="hercskytools" name="TeamChopsticks/hercskytools" remote="github" revision="master" />
+  <copyfile src="hercskytools/build.sh" dest="build.sh" />
+
 
 <!--Device Trees-->
   <project path="device/samsung/d2tmo" name="ayysir/android_device_samsung_d2tmo" remote="bitbucket" revision="cm-10.2" />
   <project path="device/samsung/d2att" name="ayysir/android_device_samsung_d2att" remote="bitbucket" revision="cm-10.2" />
+  <project path="device/samsung/d2-common" name="ayysir/android_device_samsung_d2-common" remote="bitbucket" revision="cm-10.2" />
   <project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" remote="github" revision="cm-10.2" />
   <project path="device/samsung/hercules" name="CyanogenMod/android_device_samsung_hercules" remote="github" revision="cm-10.2" />
   <project path="device/samsung/msm8660-common" name="CyanogenMod/android_device_samsung_msm8660-common" remote="github" revision="cm-10.2" />
   <project path="device/samsung/celox-common" name="CyanogenMod/android_device_samsung_celox-common" remote="github" revision="cm-10.2" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
-  <project path="kernel/samsung/msm8660-common" name="Cl3Kener/HERC-KERNELS" remote="github" revision="diablo-jb43" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
-  <project name="TeamChopsticks/hercskytools" path="hercskytools" remote="github" revision="master" />
-  <copyfile src="build.sh" dest="build.sh" />
 </manifest>
 
 
