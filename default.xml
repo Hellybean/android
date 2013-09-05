@@ -431,7 +431,7 @@
 
 <!--Hercules-Skyrocket Requirements-->
   <project path="kernel/samsung/msm8660-common" name="Cl3Kener/HERC-KERNELS" remote="github" revision="diablo-jb43" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
+  <project path="vendor/samsung" name="thdDude/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
 
 <!--HercSky Tools-->
   <project path="hercskytools" name="TeamChopsticks/hercskytools" remote="github" revision="master" />
