@@ -6,7 +6,7 @@ To initialize your local repository use
 
 For Skyrocket you need to make a .repo/local_manifests/roomservice.xml and add this line.
 
-  <project name="CyanogenMod/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="github" revision="cm-10.2" />
+  project name="CyanogenMod/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="github" revision="cm-10.2"
 
     
 
