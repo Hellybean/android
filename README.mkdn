@@ -4,12 +4,10 @@ To initialize your local repository use
 
     repo init -u https://github.com/thdDude/android.git -b hb43
 
-For Skyrocket you need to make a .repo/local_manifests/roomservice.xml and add this code.
+For Skyrocket you need to make a .repo/local_manifests/roomservice.xml and add this line.
 
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
   <project name="CyanogenMod/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="github" revision="cm-10.2" />
-</manifest>
+
     
 
 Then to sync up:
