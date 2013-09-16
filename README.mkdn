@@ -1,8 +1,9 @@
-UNOFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, D2TMO, AND D2ATT
+UNOFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, D2TMO, D2ATT, Mako, and Jfltetmo
 
 To initialize your local repository use
 
-    repo init -u https://github.com/thdDude/android.git -b cm-10.2
+    repo init -u https://github.com/thdDude/android.git -b hb43
+    
 
 Then to sync up:
 
@@ -15,4 +16,17 @@ Build commands are
     
     . build/envsetup.sh
     
-    brunch hercules 
+    brunch <DEVICE> 
+
+
+or 
+
+Hercules and Skyrocket only
+Build with the Team Chopsticks build tools to include gerrit patches automatically:
+
+```
+build.sh clean           # cleans and clobbers
+build.sh prepare         # abandons old branches and repo sync
+
+build.sh hercules-10.2   # runs update script and builds for hercules cm-10.2
+build.sh skyrocket-10.2  # runs update script and builds for skyrocket cm-10.2
