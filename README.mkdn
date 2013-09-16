@@ -1,4 +1,4 @@
-UNOFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, D2TMO, AND D2ATT
+UNOFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, D2TMO, D2ATT, and jfltetmo
 
 To initialize your local repository use
 
@@ -16,7 +16,7 @@ Build commands are
     
     . build/envsetup.sh
     
-    brunch hercules 
+    brunch <DEVICE> 
 
 
 or 
