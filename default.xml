@@ -455,6 +455,7 @@
 
 <!--Nexus 4 Requirements-->
   <project path="kernel/lge/kernel/mako" name="CyanogenMod/lge-kernel-mako" revision="cm-10.2" />
+  <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" revision="cm-10.2" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-10.2" />
   <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" revision="cm-10.2" />
 </manifest>
