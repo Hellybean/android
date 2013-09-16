@@ -1,4 +1,4 @@
-UNOFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, D2TMO, D2ATT, and jfltetmo
+UNOFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, D2TMO, D2ATT, Mako, and Jfltetmo
 
 To initialize your local repository use
 
@@ -21,7 +21,7 @@ Build commands are
 
 or 
 
-
+Hercules and Skyrocket only
 Build with the Team Chopsticks build tools to include gerrit patches automatically:
 
 ```
