@@ -447,13 +447,16 @@
   <project path="device/samsung/d2att" name="ayysir/android_device_samsung_d2att" remote="bitbucket" revision="cm-10.2" />
   <project path="device/samsung/d2-common" name="ayysir/android_device_samsung_d2-common" remote="bitbucket" revision="cm-10.2" />
 
-  
 <!--jfltetmo Requirements-->
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" />
   <project path="device/samsung/jf-common" name="thdDude/android_device_samsung_jf-common" remote="github" revision="cm-10.2" />
   <project path="device/samsung/jfltetmo" name="CyanogenMod/android_device_samsung_jfltetmo" remote="github" revision="cm-10.2" />
   <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="github" revision="cm-10.2" />
 
+<!--Nexus 4 Requirements-->
+  <project path="kernel/lge/kernel/mako" name="CyanogenMod/lge-kernel-mako" revision="cm-10.2" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-10.2" />
+  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" revision="cm-10.2" />
 </manifest>
 
 
