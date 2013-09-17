@@ -1,4 +1,4 @@
-OFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, quincyatt, D2TMO, D2ATT, Mako, and Jfltetmo
+OFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, quincyatt, quincytmo, D2TMO, D2ATT, Mako, and Jfltetmo
 
 To initialize your local repository use
 
