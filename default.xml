@@ -430,11 +430,12 @@
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
 
   
-<!--Hercules-Skyrocket Requirements-->
+<!--Hercules-Skyrocket-quincyatt Requirements-->
   <project path="kernel/samsung/msm8660-common" name="Cl3Kener/HERC-KERNELS" remote="github" revision="diablo-jb43" />
   <project path="vendor/samsung" name="thdDude/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
   <project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" remote="github" revision="cm-10.2" />
   <project path="device/samsung/hercules" name="CyanogenMod/android_device_samsung_hercules" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/quincyatt" name="CyanogenMod/android_device_samsung_quincyatt" remote="github" revision="cm-10.2" />
   <project path="device/samsung/msm8660-common" name="CyanogenMod/android_device_samsung_msm8660-common" remote="github" revision="cm-10.2" />
   <project path="device/samsung/celox-common" name="CyanogenMod/android_device_samsung_celox-common" remote="github" revision="cm-10.2" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />

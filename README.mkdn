@@ -1,4 +1,4 @@
-OFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, D2TMO, D2ATT, Mako, and Jfltetmo
+OFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, quincyatt, D2TMO, D2ATT, Mako, and Jfltetmo
 
 To initialize your local repository use
 
@@ -21,7 +21,7 @@ Build commands are
 
 or 
 
-Hercules and Skyrocket only
+Hercules, Skyrocket and quincyatt only
 Build with the Team Chopsticks build tools to include gerrit patches automatically:
 
 ```
@@ -30,3 +30,4 @@ build.sh prepare         # abandons old branches and repo sync
 
 build.sh hercules-10.2   # runs update script and builds for hercules cm-10.2
 build.sh skyrocket-10.2  # runs update script and builds for skyrocket cm-10.2
+build.sh quincyatt-10.2  # runs update script and builds for quincyatt cm-10.2
