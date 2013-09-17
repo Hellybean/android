@@ -71,7 +71,7 @@
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" groups="pdk" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" groups="pdk" />
+  <project path="external/clang" name="CyanogenMod/android_external_clang" groups="cm-10.2" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
