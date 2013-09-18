@@ -429,4 +429,5 @@
 
   <project path="kernel/samsung/devil" name="DerTeufel/samsung-kernel-aries" revision="cm-10.2" />
   <project path="kernel/samsung/crespo_devil" name="DerTeufel/android_kernel_samsung_crespo" revision="cm-10.2" />
+ <project path="packages/apps/HALO" name="scotthartbti/android_packages_apps_HALO" revision="jb43" />
 </manifest>
