@@ -431,14 +431,14 @@
 
   
 <!--Hercules-Skyrocket-quincyatt-quincytmo Requirements-->
-  <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" />
+  <project path="kernel/samsung/msm8660-common" name="Cl3Kener/HERC-KERNELS" remote="github" revision="diablo-jb43" />
+  <project path="vendor/samsung" name="thdDude/proprietary_vendor_samsung" />
   <project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" />
   <project path="device/samsung/hercules" name="CyanogenMod/android_device_samsung_hercules" />
   <project path="device/samsung/quincyatt" name="CyanogenMod/android_device_samsung_quincyatt" />
   <project path="device/samsung/quincytmo" name="CyanogenMod/android_device_samsung_quincytmo" />  
   <project path="device/samsung/quincy-common" name="CyanogenMod/android_device_samsung_quincy-common" />
-  <project path="device/samsung/msm8660-common" name="CyanogenMod/android_device_samsung_msm8660-common" />
+  <project path="device/samsung/msm8660-common" name="thdDude/android_device_samsung_msm8660-common" />
   <project path="device/samsung/celox-common" name="CyanogenMod/android_device_samsung_celox-common" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" />
   
