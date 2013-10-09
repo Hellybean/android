@@ -240,14 +240,14 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="thdDude/android_frameworks_base" />
+  <project path="frameworks/base" name="DerTeufel/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="thdDude/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="DerTeufel/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -302,8 +302,8 @@
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="thdDude/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="thdDude/android_packages_apps_Calculator" />
+  <project path="packages/apps/Browser" name="DerTeufel/android_packages_apps_Browser" />
+  <project path="packages/apps/Calculator" name="DerTeufel/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
@@ -314,22 +314,22 @@
   <project path="packages/apps/DeskClock" name="thdDude/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="thdDude/android_packages_apps_Dialer" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
-  <project path="packages/apps/Email" name="thdDude/android_packages_apps_Email" />
+  <project path="packages/apps/Email" name="DerTeufel/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/FastPowerOn" name="CyanogenMod/android_packages_apps_FastPowerOn" />
   <project path="packages/apps/Focal" name="thdDude/android_packages_apps_Focal" />
-  <project path="packages/apps/Gallery2" name="thdDude/android_packages_apps_Gallery2" />
+  <project path="packages/apps/Gallery2" name="DerTeufel/android_packages_apps_Gallery2" />
   <project path="packages/apps/HALO" name="thdDude/android_packages_apps_HALO" revision="cm-10.2" />
   <project path="packages/apps/HBWallpapers" name="thdDude/android_packages_apps_HBWallpapers" revision="cm-10.2" /> 
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="thdDude/android_packages_apps_LockClock" revision="cm-10.2" />
-  <project path="packages/apps/Mms" name="thdDude/android_packages_apps_Mms" />
+  <project path="packages/apps/Mms" name="DerTeufel/android_packages_apps_Mms" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="CyanogenMod/android_packages_apps_OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="thdDude/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="DerTeufel/android_packages_apps_Phone" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
@@ -340,12 +340,12 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
-  <project path="packages/apps/Trebuchet" name="thdDude/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="DerTeufel/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" name="thdDude/android_packages_inputmethods_LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="DerTeufel/android_packages_inputmethods_LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
