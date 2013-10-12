@@ -2,7 +2,7 @@ OFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, quincyatt, quincytmo, D2TMO
 
 To initialize your local repository use
 
-    repo init -u https://github.com/Hellybean/android.git -b cm-10.2
+    repo init -u https://github.com/Hellybean/android.git -b cm-10.2TD
     
 
 Then to sync up:
