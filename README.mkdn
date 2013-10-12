@@ -1,33 +1,6 @@
-OFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, quincyatt, quincytmo, D2TMO, D2ATT, Mako, and Jfltetmo
+OFFICIAL HELLYBEAN MANIFEST
 
 To initialize your local repository use
 
     repo init -u https://github.com/Hellybean/android.git -b cm-10.2
-    
-
-Then to sync up:
-
-    repo sync
-
-
-Build commands are
-   
-    vendor/cm/get-prebuilts
-    
-    . build/envsetup.sh
-    
-    brunch <DEVICE> 
-
-
-or 
-
-Hercules, Skyrocket and quincyatt only
-Build with the Team Chopsticks build tools to include gerrit patches automatically:
-
-```
-build.sh clean           # cleans and clobbers
-build.sh prepare         # abandons old branches and repo sync
-
-build.sh hercules-10.2   # runs update script and builds for hercules cm-10.2
-build.sh skyrocket-10.2  # runs update script and builds for skyrocket cm-10.2
-build.sh quincyatt-10.2  # runs update script and builds for quincyatt cm-10.2
+	
