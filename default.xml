@@ -21,11 +21,11 @@
            sync-j="4" />
 
   
-  <project path="build" name="Hellybean/android_build" groups="cm-10.2TD" >
+  <project path="build" name="Hellybean/android_build" revision="cm-10.2TD" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="Hellybean/android" groups="cm-10.2TD" />
+  <project path="android" name="Hellybean/android" revision="cm-10.2TD" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
