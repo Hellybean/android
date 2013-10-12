@@ -21,11 +21,11 @@
            sync-j="4" />
 
   
-  <project path="build" name="thdDude/android_build" groups="cm-10.2" >
+  <project path="build" name="Hellybean/android_build" groups="cm-10.2TD" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="Hellybean/android" groups="cm-10.2" />
+  <project path="android" name="Hellybean/android" groups="cm-10.2TD" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
@@ -93,7 +93,6 @@
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
   <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
-  <project path="external/Focal" name="thdDude/android_external_Focal" />  
   <project path="external/freetype" name="CyanogenMod/android_external_freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
@@ -421,7 +420,7 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
-  <project path="vendor/cm" name="thdDude/android_vendor_cm" remote="github" revision="cm-10.2"/>
+  <project path="vendor/cm" name="Hellybean/android_vendor_cm" remote="github" revision="cm-10.2TD"/>
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -449,11 +448,11 @@
   <copyfile src="hercskytools/build.sh" dest="build.sh" />
   
 <!--D2 Requirements-->
-  <project path="kernel/samsung/d2" name="ayysir/android_kernel_samsung_d2" remote="bitbucket" revision="cm-10.2" />
+  <project path="kernel/samsung/d2" name="Hellybean/android_kernel_samsung_d2" revision="cm-10.2" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
-  <project path="device/samsung/d2tmo" name="ayysir/android_device_samsung_d2tmo" remote="bitbucket" revision="cm-10.2" />
-  <project path="device/samsung/d2att" name="ayysir/android_device_samsung_d2att" remote="bitbucket" revision="cm-10.2" />
-  <project path="device/samsung/d2-common" name="ayysir/android_device_samsung_d2-common" remote="bitbucket" revision="cm-10.2" />
+  <project path="device/samsung/d2tmo" name="CyanogenMod/android_device_samsung_d2tmo" revision="cm-10.2" />
+  <project path="device/samsung/d2att" name="Hellybean/android_device_samsung_d2att" revision="cm-10.2" />
+  <project path="device/samsung/d2-common" name="Hellybean/android_device_samsung_d2-common" revision="cm-10.2" />
 
 <!--jfltetmo Requirements-->
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" />
