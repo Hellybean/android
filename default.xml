@@ -432,7 +432,7 @@
 
   
 <!--Hercules-Skyrocket-quincyatt-quincytmo Requirements-->
-  <project path="kernel/samsung/msm8660-common" name="Cl3Kener/HERC-KERNELS" remote="github" revision="diablo-jb43" />
+  <project path="kernel/samsung/msm8660-common" name="Hellybean/android_kernel_samsung_msm8660-common" remote="github" revision="cm-10.2" />
   <project path="vendor/samsung" name="Hellybean/proprietary_vendor_samsung" />
   <project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" />
   <project path="device/samsung/hercules" name="CyanogenMod/android_device_samsung_hercules" />
