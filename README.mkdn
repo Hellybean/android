@@ -1,4 +1,4 @@
-OFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, quincyatt, quincytmo, D2TMO, D2ATT, Mako, and Jfltetmo
+OFFICIAL HELLYBEAN MANIFEST
 
 To initialize your local repository use
 
@@ -31,3 +31,4 @@ build.sh prepare         # abandons old branches and repo sync
 build.sh hercules-10.2   # runs update script and builds for hercules cm-10.2
 build.sh skyrocket-10.2  # runs update script and builds for skyrocket cm-10.2
 build.sh quincyatt-10.2  # runs update script and builds for quincyatt cm-10.2
+

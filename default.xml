@@ -5,9 +5,6 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote name="bitbucket"
-           fetch="https://bitbucket.org" />
-
   <remote name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -29,7 +26,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="Hellybean/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -72,7 +69,7 @@
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" groups="pdk" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" groups="cm-10.2" />
+  <project path="external/clang" name="CyanogenMod/android_external_clang" groups="pdk" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
@@ -190,6 +187,7 @@
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
+  <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
@@ -319,11 +317,11 @@
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/FastPowerOn" name="CyanogenMod/android_packages_apps_FastPowerOn" />
   <project path="packages/apps/Gallery2" name="Hellybean/android_packages_apps_Gallery2" />
-  <project path="packages/apps/HALO" name="Hellybean/android_packages_apps_HALO" revision="cm-10.2" />
-  <project path="packages/apps/HBWallpapers" name="Hellybean/android_packages_apps_HBWallpapers" revision="cm-10.2" /> 
+  <project path="packages/apps/HALO" name="Hellybean/android_packages_apps_HALO" />
+  <project path="packages/apps/HBWallpapers" name="Hellybean/android_packages_apps_HBWallpapers" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
-  <project path="packages/apps/LockClock" name="Hellybean/android_packages_apps_LockClock" revision="cm-10.2" />
+  <project path="packages/apps/LockClock" name="Hellybean/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="Hellybean/android_packages_apps_Mms" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
@@ -369,7 +367,7 @@
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="pdk" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="prebuilt" name="Hellybean/android_prebuilt" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -464,5 +462,5 @@
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-10.2" />
   <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
-
 </manifest>
+
