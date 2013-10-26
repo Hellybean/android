@@ -437,6 +437,7 @@
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" revision="cm-10.2" />
   <project path="vendor/akm" name="TheMuppets/proprietary_vendor_akm" revision="cm-10.2" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" revision="cm-10.2" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-10.2" />
 
   <project path="kernel/samsung/devil" name="Hellybean/samsung-kernel-aries" revision="cm-10.2" />
   <project path="kernel/samsung/crespo_devil" name="Hellybean/android_kernel_samsung_crespo" revision="cm-10.2" />
