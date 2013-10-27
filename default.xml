@@ -444,5 +444,4 @@
 <!--Kernels Diablo and Devil-->   
   <project path="kernel/samsung/msm8660-common" name="Hellybean/android_kernel_samsung_msm8660-common" remote="github" revision="cm-10.2" />  
   <project path="kernel/samsung/devil" name="Hellybean/samsung-kernel-aries" revision="cm-10.2" />
-  <project path="kernel/samsung/crespo_devil" name="Hellybean/android_kernel_samsung_crespo" revision="cm-10.2" />
 </manifest>
