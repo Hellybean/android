@@ -431,6 +431,8 @@
 <!--Cl3Kener's Linaro TC-->
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-kernel" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
+
+<!--Vendor file's-->  
   <project path="vendor/samsung" name="Hellybean/proprietary_vendor_samsung" />
   <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" revision="cm-10.2" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" revision="cm-10.2" />
@@ -439,6 +441,8 @@
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" revision="cm-10.2" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-10.2" />
 
+<!--Kernels Diablo and Devil-->   
+  <project path="kernel/samsung/msm8660-common" name="Hellybean/android_kernel_samsung_msm8660-common" remote="github" revision="cm-10.2" />  
   <project path="kernel/samsung/devil" name="Hellybean/samsung-kernel-aries" revision="cm-10.2" />
   <project path="kernel/samsung/crespo_devil" name="Hellybean/android_kernel_samsung_crespo" revision="cm-10.2" />
 </manifest>
