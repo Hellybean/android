@@ -429,7 +429,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 <!--Cl3Kener's Linaro TC-->
-  <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Hellybean/LINARO" remote="github" revision="master" />
   <project path="prebuilt/linux-x86/toolchain/LINARO-kernel" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
 
 <!--Vendor file's-->  
