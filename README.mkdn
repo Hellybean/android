@@ -1,15 +1,9 @@
 HellKat Manifest
 
 ```
-mkdir Hellkat
-cd Hellkat
-From your cm-11 directory, execute the following to pull all source code from github:
-
 repo init -u https://github.com/Hellybean/android.git -b cm-11.0
 
 ```    
-
-
 
 ```
 repo sync
