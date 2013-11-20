@@ -345,8 +345,8 @@
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/Contacts" name="Hellybean/android_packages_apps_Contacts" />
-  <project path="packages/apps/ContactsCommon" name="Hellybean/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="Hellybean/android_packages_apps_Dialer" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
@@ -358,7 +358,7 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" />
   <project path="packages/apps/LockClock" name="Hellybean/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" name="Hellybean/android_packages_apps_Mms" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
@@ -382,7 +382,7 @@
   <project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="Hellybean/android_packages_providers_ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
