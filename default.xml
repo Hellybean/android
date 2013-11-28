@@ -381,7 +381,7 @@
   <project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="Hellybeand/android_packages_providers_ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="Hellybean/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="Hellybean/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
