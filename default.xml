@@ -360,7 +360,7 @@
   <project path="packages/apps/Mms" name="Hellybean/android_packages_apps_Mms" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
-  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="Hellybean/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="Hellybean/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
@@ -382,7 +382,7 @@
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="Hellybean/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="Hellybean/android_packages_providers_TelephonyProvider" />
