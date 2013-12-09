@@ -1,17 +1,22 @@
 HellKat Manifest
+===========
+
+Commands To Sync Repo
+------------------
 
 ```
 repo init -u https://github.com/Hellybean/android.git -b cm-11.0
+repo sync
 
 ```    
 
+To Compile
+------------------
+
 ```
-repo sync
-vendor/cm/get-prebuilts
-. build/envsetup.sh
-make clean
-breakfast cm_hercules-userdebug
-./boogerpicker/cm-11.0.sh
-mka bacon
+./hkbuild.sh <device>
 ```
 =======
+
+
+
