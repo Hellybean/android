@@ -476,7 +476,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-kernel" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
   <project path="boogerpicker" name="Cl3Kener/BoogerPicker" remote="github" revision="master" />
-  <project path="hkscripts" name="Hellybean/hkscripts" remote="github" />
+  <project path="hkscripts" name="Hellybean/hkscripts" remote="github" >
+    <copyfile dest="hkbuild.sh" src="hkbuild.sh"/>
+  </project>
   
   <!--Diablo-Kernel-->
   <project path="kernel/samsung/msm8660-common" name="Hellybean/android_kernel_samsung_msm8660-common" remote="github" revision="cm-11.0" />
