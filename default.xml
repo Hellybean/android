@@ -344,7 +344,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="Hellybean/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/CMWallpapers" name="Hellybean/android_packages_apps_HBWallpapers" />
   <project path="packages/apps/Contacts" name="Hellybean/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="Hellybean/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="Hellybean/android_packages_apps_DeskClock" />
