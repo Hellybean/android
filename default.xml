@@ -480,7 +480,11 @@
   <project path="hkscripts" name="Hellybean/hkscripts" remote="github" >
     <copyfile dest="hkbuild.sh" src="hkbuild.sh"/>
   </project>
-  
+
+  <!--SaberMod's-Tools-->
+  <project path="prebuilts/gcc/linux-x86/arm/SM" name="Hellybean/SaberMod_ROM_Toolchain" remote="github" revision="4.9.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/SMK" name="SaberMod/GCC_SaberMod" remote="github" revision="4.8.3" />
+
   <!--Diablo-Kernel-->
   <project path="kernel/samsung/msm8660-common" name="Hellybean/android_kernel_samsung_msm8660-common" remote="github" revision="cm-11.0" />
 
