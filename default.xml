@@ -402,7 +402,7 @@
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="prebuilt" name="Hellybean/android_prebuilt" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -476,7 +476,6 @@
 
   <!--Cl3Kener's-Tools-->
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/LINARO-kernel" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
   <project path="boogerpicker" name="Cl3Kener/BoogerPicker" remote="github" revision="master" />
   <project path="hkscripts" name="Hellybean/hkscripts" remote="github" >
     <copyfile dest="hkbuild.sh" src="hkbuild.sh"/>
@@ -484,15 +483,5 @@
 
   <!--SaberMod's-Tools-->
   <project path="prebuilts/gcc/linux-x86/arm/SM" name="Hellybean/SaberMod_ROM_Toolchain" remote="github" revision="4.9.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/SMK" name="SaberMod/GCC_SaberMod" remote="github" revision="4.8.3" />
 
-  <!--Diablo-Kernel-->
-  <project path="kernel/samsung/msm8660-common" name="Hellybean/android_kernel_samsung_msm8660-common" remote="github" revision="cm-11.0" />
-
-  <!--Hercules-Requirements-->
-  <project path="device/samsung/celox-common" name="Hellybean/android_device_samsung_celox-common" remote="github" revision="cm-11.0" />
-  <project path="device/samsung/hercules" name="Hellybean/android_device_samsung_hercules" remote="github" revision="cm-11.0" />
-  <project path="device/samsung/msm8660-common" name="Hellybean/android_device_samsung_msm8660-common" remote="github" revision="cm-11.0" />
-  <project path="device/samsung/qcom-common" name="Hellybean/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
-  
 </manifest>
