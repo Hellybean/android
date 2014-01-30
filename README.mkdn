@@ -14,7 +14,7 @@ repo init -u https://github.com/Hellybean/android.git -b cm-11.0
 ```    
 
 
-You may need to modify your `.repo/local_manifest.xml` for your device as follows:
+You may need to modify your `.repo/local_manifest/roomservice.xml` for your device as follows:
 ----------------------------------------------------------------------------------
 
 ```xml
