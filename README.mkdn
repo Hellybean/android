@@ -1,14 +1,58 @@
-HellKat Manifest
+Official HellKat Manifest
 ===========
 
-Commands To Sync Repo
+Commands init Repo
 ------------------
+```
+mkdir hk
+cd hk
+From your hk directory, execute the following to pull all source code from github:
+
+repo init -u https://github.com/Hellybean/android.git -b cm-11.0
+```    
+
+
+You may need to modify your `.repo/local_manifest.xml` for your device as follows:
+----------------------------------------------------------------------------------
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Hellybean/android_device_samsung_t0lte" path="device/samsung/t0lte" remote="github" />
+  <project name="Hellybean/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
+  <project name="Hellybean/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+  <project name="Hellybean/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+  <project name="Hellybean/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="Hellybean/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" />
+  <project name="Hellybean/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
+  <project name="Hellybean/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
+  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
+  <project name="Hellybean/android_device_samsung_skyrocket" path="device/samsung/skyrocket" remote="github" />
+  <project name="Hellybean/android_device_lge_mako" path="device/lge/mako" remote="github" />
+  <project name="Hellybean/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
+  <project name="Hellybean/android_device_samsung_hercules" path="device/samsung/hercules" remote="github" />
+  <project name="Hellybean/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="Hellybean/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="github" />
+  <project name="Hellybean/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="github" />
+  <project name="Hellybean/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="github" />
+  <project name="Hellybean/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" />
+  <project name="Hellybean/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" />
+  <project name="Hellybean/android_device_amazon_otter" path="device/amazon/otter" remote="github" />
+  <project name="CyanogenMod/android_device_amazon_otter-common" path="device/amazon/otter-common" remote="github" />
+  <project name="CyanogenMod/android_device_amazon_omap4-common" path="device/amazon/omap4-common" remote="github" />
+  <project name="Hellybean/android_kernel_amazon_otter-common" path="kernel/amazon/otter-common" remote="github" />
+  <project path="vendor/samsung" name="Hellybean/proprietary_vendor_samsung" />
+  <project path="vendor/lge" name="Hellybean/proprietary_vendor_lge" />
+</manifest>
+</manifest>
+```
+
 
 ```
-repo init -u https://github.com/Hellybean/android.git -b cm-11.0
 repo sync
 
-```    
+```  
 
 To Compile
 ------------------
@@ -17,6 +61,3 @@ To Compile
 ./hkbuild.sh <device>
 ```
 =======
-
-
-
