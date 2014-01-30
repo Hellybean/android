@@ -1,8 +1,10 @@
 Official HellKat Manifest
-===========
+=========================
+
 
 Commands init Repo
 ------------------
+
 ```
 mkdir hk
 cd hk
@@ -14,6 +16,7 @@ repo init -u https://github.com/Hellybean/android.git -b cm-11.0
 
 You may need to modify your `.repo/local_manifest.xml` for your device as follows:
 ----------------------------------------------------------------------------------
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
@@ -48,10 +51,11 @@ You may need to modify your `.repo/local_manifest.xml` for your device as follow
 </manifest>
 ```
 
+Sync source
+-----------
 
 ```
 repo sync
-
 ```  
 
 To Compile
