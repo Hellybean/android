@@ -48,7 +48,6 @@ You may need to modify your `.repo/local_manifest/roomservice.xml` for your devi
   <project path="vendor/samsung" name="Hellybean/proprietary_vendor_samsung" />
   <project path="vendor/lge" name="Hellybean/proprietary_vendor_lge" />
 </manifest>
-</manifest>
 ```
 
 Sync source
