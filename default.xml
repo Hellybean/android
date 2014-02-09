@@ -351,7 +351,7 @@
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="Hellybean/android_packages_apps_HBWallpapers" />
   <project path="packages/apps/Contacts" name="Hellybean/android_packages_apps_Contacts" />
-  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="Hellybean/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="Hellybean/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="Hellybean/android_packages_apps_Dialer" />
   <project path="packages/apps/DSPManager" name="Hellybean/android_packages_apps_DSPManager" />
